@@ -5,7 +5,7 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+TOKEN = "8432859889:AAFt-Dia4jO8AFfH6xcvCJKoLxtGEyNDc6E"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🤖 Бот запущен!")
@@ -23,4 +23,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
